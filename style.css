@@ -130,3 +130,6 @@
 .course-visual{background:#f8e9e2!important;aspect-ratio:1/1!important;height:auto!important;overflow:hidden!important}
 .course-visual img{background:#f8e9e2!important;width:100%!important;height:100%!important;object-fit:contain!important;display:block!important}
 .course-visual:before,.course-visual:after{display:none!important;content:none!important}
+
+/* Ajuste das quatro fotos: extensao do fundo sem bordas internas; bonecas preservadas. */
+.course-visual,.course-visual img{background:#FCE5DE!important}
