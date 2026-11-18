@@ -1,0 +1,8 @@
+Para publicar SEM substituir a página principal:
+1. Abra o repositório do GitHub Pages.
+2. Envie bebe-cebolinha.html para a RAIZ (ao lado de index.html).
+3. Envie script.js atualizado para a RAIZ, substituindo somente esse arquivo.
+4. A página index.html NÃO deve ser alterada.
+5. O link do curso Bebê Cebolinha abrirá bebe-cebolinha.html.
+6. Para ativar a compra, substitua CHECKOUT_URL vazio pelo link oficial em bebe-cebolinha.html.
+7. Confirme módulos e benefícios antes de publicar; eles vieram da referência visual.

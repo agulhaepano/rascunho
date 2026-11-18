@@ -1,0 +1,132 @@
+:root{--bg:#171117;--bg2:#21171e;--pink:#ed6c9e;--hot:#c51d65;--cream:#fff6f1;--ink:#30202b;--muted:#cbb6c1;--line:#49303c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#fff;background:var(--bg);font-family:'DM Sans',Arial,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}img{max-width:100%;display:block}.wrap{width:min(1160px,calc(100% - 44px));margin-inline:auto}.skip{position:absolute;top:-100px;background:#fff;color:#000;padding:12px;z-index:20}.skip:focus{top:0}.site-header{position:relative;z-index:10;background:#110e12;border-bottom:1px dashed #bc5682}.header-row{min-height:96px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:10px}.brand-symbol{font-size:60px;font-family:Georgia,serif;line-height:1;color:#ed71a4;position:relative}.brand-symbol span{font-size:17px;position:absolute;top:2px;right:-4px}.brand-text{display:grid;line-height:1.08;font-family:'Playfair Display',Georgia,serif;font-size:23px}.brand-text strong{font-weight:600}.nav{display:flex;align-items:center;gap:36px}.nav>a:not(.nav-cta){font-size:14px}.nav>a:hover,.footer a:hover{color:#ff9bbd}.nav-cta,.button{display:inline-flex;align-items:center;justify-content:center;gap:12px;border:0;border-radius:100px;background:var(--hot);padding:13px 22px;font-weight:700;font-size:14px;transition:transform .2s,background .2s}.nav-cta:hover,.button:hover{transform:translateY(-2px);background:#e32e7d}.nav-toggle{display:none}.hero{overflow:hidden;background:radial-gradient(circle at 79% 47%,#4a2439 0,transparent 38%),linear-gradient(110deg,#171017,#23151f 70%,#1a1119)}.hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:555px}.hero-copy{z-index:2;padding:50px 0 58px}.eyebrow,.kicker{letter-spacing:.17em;font-size:11px;text-transform:uppercase;font-weight:700;color:#ef9fbd}.sparkle{font-size:16px}.hero h1{font-family:'Playfair Display',Georgia,serif;line-height:.93;margin:24px 0 14px;font-weight:600;font-size:clamp(76px,9.8vw,137px);letter-spacing:-.055em}.hero h1 span,.hero h1 em{display:block}.hero h1 em{font-style:italic;font-weight:500;color:#f07ba8;margin-left:45px}.hero-brand{font-family:'Playfair Display',Georgia,serif;font-size:27px;letter-spacing:.005em}.hero-brand span{color:#e985ad}.hero-copy>p{font-family:'Playfair Display',Georgia,serif;font-size:21px;line-height:1.5;max-width:480px;color:#f2dce6}.hero-copy>p strong{font-weight:600;color:#fff}.hero-actions{margin-top:26px}.button.pink{padding:17px 26px;background:linear-gradient(110deg,#dc2871,#b8175a);box-shadow:0 11px 28px #0005}.hero-detail{color:#c17c9a;margin-top:28px;font-size:12px}.hero-art{height:100%;min-height:500px;position:relative;display:flex;align-items:end;justify-content:center}.hero-circle{position:absolute;inset:70px 0 80px 3%;border-radius:50%;background:radial-gradient(circle,#9b4f72 0,#5d2b46 44%,transparent 70%);filter:blur(8px)}.hero-art>img{position:relative;z-index:1;object-fit:contain;object-position:center bottom;height:490px;width:auto;max-width:93%;border-radius:200px 200px 16px 16px;mask-image:linear-gradient(to bottom,#000 86%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 86%,transparent 100%)}.hero-note{position:absolute;bottom:23px;right:0;z-index:2;color:#ffc1d9;background:#482036b8;border:1px solid #8e4b6b;border-radius:40px;padding:10px 16px;font-family:'Playfair Display',Georgia,serif;font-style:italic}.hero-note span{color:#ff78a9}.stitch-one,.stitch-two{position:absolute;border:2px dashed #d65a89;border-radius:50%;opacity:.5}.stitch-one{width:100px;height:100px;left:0;top:25%}.stitch-two{width:70px;height:70px;right:12px;top:8%}.benefits{background:#21171e;border-top:1px solid #493141;border-bottom:1px solid #493141}.benefits-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:24px 0}.benefits-grid>div{display:flex;align-items:center;gap:13px;font-size:13px;color:#f0e4e9}.benefit-icon{font-size:30px;color:var(--pink);width:39px;flex-shrink:0;text-align:center}.offers{padding:76px 0 88px;background:linear-gradient(180deg,#1a1319,#241820)}.section-heading{text-align:center;margin:0 auto 36px}.section-heading h2{font:600 clamp(38px,5vw,60px)/1.15 'Playfair Display',Georgia,serif;margin:9px 0}.section-heading h2 em{font-weight:500;color:#f179a5}.section-heading p{color:#d4bbc9;font-size:14px}.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.course-card{overflow:hidden;background:var(--cream);color:var(--ink);border:7px solid #f5d9e2;border-radius:20px;box-shadow:0 17px 30px #0004;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}.course-card:hover{transform:translateY(-5px);box-shadow:0 25px 35px #0007}.course-visual{height:210px;background:radial-gradient(circle at 70% 20%,#fff8f5,transparent 55%),linear-gradient(135deg,#f1d9dd,#ddabc3);display:grid;place-items:center;position:relative;overflow:hidden}.course-visual:before,.course-visual:after{content:'✿';position:absolute;color:#d189ab;font-size:70px;opacity:.35}.course-visual:before{left:-13px;bottom:-23px}.course-visual:after{right:-14px;top:-26px;font-size:92px}.course-visual img{height:100%;width:100%;object-fit:cover}.placeholder{display:grid;justify-items:center;gap:9px;z-index:1;color:#8d506b;text-align:center}.placeholder .flower{font-size:45px;line-height:1}.placeholder span:last-child{font-size:12px;letter-spacing:.04em}.course-body{display:flex;flex-direction:column;align-items:center;flex:1;padding:21px 17px 18px;text-align:center}.course-body h3{font:600 26px/1.25 'Playfair Display',Georgia,serif;margin:0 0 18px}.offer-label{font-size:11px;text-transform:uppercase;letter-spacing:.13em;color:#9b647e;font-weight:700;margin-top:auto}.course-price{font-weight:700;color:#c71960;font-size:31px;margin:6px 0 15px}.course-link{width:100%;border-radius:11px;padding:14px 12px;background:linear-gradient(100deg,#dd2c77,#b91359);color:#fff;font-weight:700;font-size:14px}.course-link:hover{background:#a91552}.offers-footnote{color:#a9919e;text-align:center;font-size:11px;margin:24px auto 0;max-width:740px}.bottom-cta{background:linear-gradient(100deg,#f3cfdb,#f9e7e9 50%,#f0b9ce);color:var(--ink);border-top:6px solid #e99bb9;padding:42px 0}.bottom-inner{display:grid;grid-template-columns:80px 1fr auto;gap:25px;align-items:center}.gift{font-size:85px;font-family:Georgia,serif;color:#bc336d}.kicker.dark{color:#a53c66}.bottom-inner h2{font:600 31px 'Playfair Display',Georgia,serif;margin:8px 0}.bottom-inner p{margin:0;color:#6f4d5e;font-size:14px}.dark-button{background:#bd1d61;white-space:nowrap}.footer{background:#110e12}.footer-inner{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:15px;font-size:12px;color:#bda6b1}
+/* Interior do curso */.detail-main{min-height:70vh;background:linear-gradient(#fff1f5,#f8e6e9);color:var(--ink)}.detail-shell{max-width:920px;margin:auto;padding:65px 0 90px}.back-link{color:#a52761;font-weight:700;font-size:14px}.detail-card{display:grid;grid-template-columns:1fr 1.2fr;gap:36px;margin-top:25px;background:#fffaf8;border:1px solid #efcfdd;border-radius:24px;padding:30px;box-shadow:0 15px 36px #ac668329}.detail-visual{background:#f0d6df;border-radius:17px;min-height:350px;display:grid;place-items:center;color:#a35377;text-align:center;padding:20px}.detail-visual img{max-height:390px;width:100%;object-fit:contain}.detail-info h1{font:600 48px/1.1 'Playfair Display',Georgia,serif;margin:12px 0}.detail-info p{line-height:1.65}.detail-price{font-size:36px;color:#c51d65;font-weight:700}.status-note{background:#fce7ed;border-left:4px solid #d74282;border-radius:8px;padding:14px 16px;margin:21px 0;font-size:14px}.detail-info .button{color:#fff}.button[aria-disabled="true"]{opacity:.55;cursor:not-allowed;pointer-events:none}.detail-modules{margin-top:30px;padding:25px;background:#fffaf8;border-radius:20px}.detail-modules h2{font:600 27px 'Playfair Display',Georgia,serif}.detail-modules p{line-height:1.7;color:#745466}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr 1fr}.hero h1{font-size:clamp(70px,10vw,110px)}.hero-art>img{height:410px}.hero-art{min-height:410px}.course-grid{gap:16px}.course-visual{height:175px}.benefits-grid{grid-template-columns:repeat(2,1fr)}.bottom-inner{grid-template-columns:50px 1fr}.gift{font-size:58px}.bottom-inner .button{grid-column:2;justify-self:start}}
+@media(max-width:640px){.wrap{width:min(100% - 32px,500px)}.header-row{min-height:76px}.brand-symbol{font-size:48px}.brand-text{font-size:18px}.nav-toggle{display:flex;background:none;border:0;flex-direction:column;gap:5px;padding:12px;cursor:pointer}.nav-toggle span{width:25px;height:2px;background:#f28bb4;border-radius:8px}.nav{display:none;position:absolute;left:0;right:0;top:100%;padding:20px 24px;background:#19121a;box-shadow:0 18px 25px #0008;flex-direction:column;align-items:stretch;gap:17px}.nav.open{display:flex}.nav>a:not(.nav-cta){font-size:16px}.hero-grid{grid-template-columns:1fr;min-height:0}.hero-copy{text-align:center;padding:39px 0 0}.eyebrow{font-size:10px}.hero h1{font-size:clamp(75px,22vw,116px);margin:15px auto 8px;max-width:420px}.hero h1 em{margin-left:45px}.hero-brand{font-size:22px}.hero-copy>p{font-size:17px;max-width:350px;margin:15px auto}.hero-actions{margin-top:19px}.hero-detail{display:none}.hero-art{min-height:0;height:380px;margin-top:8px}.hero-art>img{height:368px;max-width:98%;border-radius:150px 150px 0 0}.hero-circle{inset:12px 12px 10px}.hero-note{bottom:18px;right:2px;font-size:12px}.stitch-one{left:4%;top:16%}.benefits-grid{grid-template-columns:repeat(2,1fr);gap:17px 12px;padding:20px 0}.benefits-grid>div{font-size:12px;gap:8px}.benefit-icon{font-size:26px;width:30px}.offers{padding:58px 0}.section-heading h2{font-size:42px}.section-heading p{font-size:13px;line-height:1.5}.course-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.course-card{border-width:4px;border-radius:15px}.course-visual{height:142px}.placeholder .flower{font-size:37px}.placeholder span:last-child{font-size:10px}.course-body{padding:15px 9px 10px}.course-body h3{font-size:19px;margin-bottom:13px;min-height:48px;display:grid;place-items:center}.offer-label{font-size:9px}.course-price{font-size:24px;margin:5px 0 12px}.course-link{font-size:12px;padding:13px 5px}.bottom-cta{padding:31px 0}.bottom-inner{grid-template-columns:43px 1fr;gap:13px}.gift{font-size:48px}.bottom-inner h2{font-size:24px}.bottom-inner p{font-size:12px}.bottom-inner .button{grid-column:1/-1;justify-self:stretch}.footer-inner{font-size:10px}.detail-shell{padding:30px 0 60px}.detail-card{grid-template-columns:1fr;gap:15px;padding:17px}.detail-visual{min-height:250px}.detail-info h1{font-size:39px}.detail-modules{padding:19px}}
+@media(max-width:360px){.course-grid{grid-template-columns:1fr}.course-visual{height:240px}.course-body h3{min-height:0;font-size:24px}.course-price{font-size:30px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+
+/* Layout mobile inspirado no modelo aprovado. Desktop e páginas internas preservados. */
+@media(max-width:640px){
+ .site-header{background:linear-gradient(110deg,#ffe5ed,#ffd2e1);border-bottom:0}
+ .header-row{min-height:80px}
+ .brand{color:#24151c}
+ .brand-symbol{color:#e85494}
+ .brand-text{font-size:19px}
+ .nav-toggle span{background:#201319;height:3px}
+ .hero{background:radial-gradient(circle at 72% 33%,#372329 0,#1b1317 55%,#120e11 100%)}
+ .hero-grid{position:relative;display:grid;grid-template-columns:1fr;min-height:420px}
+ .hero-copy{position:relative;text-align:left;padding:44px 0 30px;min-height:420px;z-index:3;pointer-events:none}
+ .eyebrow{display:none}
+ .hero h1{font-size:clamp(62px,17vw,98px);max-width:64%;margin:10px 0 8px;line-height:.88;letter-spacing:-.055em}
+ .hero h1 em{margin-left:16px}
+ .hero-brand{font-size:clamp(14px,4vw,20px);max-width:52%;margin-top:17px}
+ .hero-promo{display:inline-block!important;max-width:52%!important;background:linear-gradient(115deg,#ffb5d0,#fa5c9b 65%,#f7a6c8);color:#26111b!important;padding:15px 10px;transform:rotate(-3deg);text-align:center;font:italic 600 clamp(14px,4.1vw,20px)/1.15 'Playfair Display',Georgia,serif!important;clip-path:polygon(0 3%,100% 0,96% 50%,100% 100%,0 97%,4% 50%);margin-top:22px!important}
+ .hero-actions{display:none}
+ .hero-art{position:absolute;inset:0 0 0 37%;height:100%;min-height:0;margin:0;display:flex;align-items:end;justify-content:end;z-index:2;pointer-events:none}
+ .hero-art>img{height:90%;width:100%;max-width:none;object-fit:contain;object-position:right bottom;border-radius:0;mask-image:linear-gradient(to bottom,#000 82%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent 100%)}
+ .hero-circle{inset:10% 0 7% 0;background:radial-gradient(circle,#6b334e 0,transparent 65%)}
+ .hero-note,.stitch-one,.stitch-two{display:none}
+ .benefits{background:#1c1519}
+ .benefits-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;padding:21px 0 19px}
+ .benefits-grid>div{flex-direction:column;justify-content:start;gap:7px;text-align:center;font-size:10px;line-height:1.15}
+ .benefit-icon{font-size:29px;width:auto;line-height:1}
+ .offers{padding:35px 0 50px}
+ .section-heading{margin-bottom:26px}
+ .section-heading .kicker{display:none}
+ .section-heading h2{font-size:clamp(34px,9vw,48px);font-style:italic}
+ .section-heading p{display:none}
+ .course-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .course-card{background:#ffe6e8;border:5px solid #ffe3e9;border-radius:17px}
+ .course-visual{height:auto;aspect-ratio:5/4}
+ .course-visual img{object-fit:cover}
+ .course-body{padding:12px 7px 9px}
+ .course-body h3{background:#fff7f4;width:calc(100% + 14px);font-family:'DM Sans',Arial,sans-serif;font-size:clamp(13px,3.7vw,17px);font-weight:700;line-height:1.2;min-height:42px;margin:0 0 10px;padding:5px}
+ .offer-label{display:none}
+ .course-price{font-size:clamp(21px,5.8vw,29px);margin:2px 0 11px;color:#c9165b}
+ .course-link{font-size:clamp(11px,3.3vw,14px);background:linear-gradient(100deg,#f02d7a,#c70052);border-radius:12px;padding:12px 4px}
+ .bottom-cta{border-top:3px solid #ffaac7;background:linear-gradient(100deg,#ffe0e8,#ffc5da);padding:24px 0}
+ .bottom-inner{grid-template-columns:43px 1fr;gap:10px}
+ .bottom-inner .kicker,.bottom-inner p{display:none}
+ .bottom-inner h2{font:italic 500 21px/1.25 'Playfair Display',Georgia,serif;margin:0}
+ .bottom-inner .button{grid-column:1/-1;justify-self:stretch;font-size:16px}
+}
+@media(max-width:360px){
+ .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .course-visual{height:auto}
+ .course-body h3{font-size:13px;min-height:43px}
+ .course-price{font-size:20px}
+ .hero-grid,.hero-copy{min-height:385px}
+ .hero h1{font-size:61px}
+}
+
+
+/* Ajustes de fotografia e hierarquia — 17/11 */
+.course-visual{height:auto;aspect-ratio:5/4;background:#f9ece2}
+.course-visual img{object-fit:contain;object-position:center center}
+.course-price{font-size:25px;margin:4px 0 10px}
+.hero-art>img{border-radius:0!important;mask-image:none!important;-webkit-mask-image:none!important}
+@media(max-width:640px){
+ .course-visual{height:auto;aspect-ratio:4/5}
+ .course-visual img{object-fit:contain;object-position:center center}
+ .course-price{font-size:clamp(17px,4.5vw,22px);margin:1px 0 7px}
+ .course-body{padding-top:8px}
+ .course-body h3{margin-bottom:4px}
+ .hero-art>img{height:98%;object-fit:contain;object-position:right bottom}
+}
+
+
+/* Padronização da vitrine: retratos grandes e preenchimento integral */
+.course-visual,.course-visual:before,.course-visual:after{background:#f7e9e2!important}
+.course-visual:before,.course-visual:after{content:none!important;display:none!important}
+.course-visual{height:auto!important;aspect-ratio:4/5!important;display:block!important;overflow:hidden!important}
+.course-visual img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center center!important;display:block!important}
+.course-card{background:#fbe5e9!important}
+@media(max-width:640px){
+ .course-visual{aspect-ratio:4/5!important}
+ .course-visual img{object-fit:cover!important}
+ .course-body{padding-top:8px!important}
+}
+
+/* Fotos em sangria completa, sem moldura interna nem flores sobrepostas */
+.course-visual{aspect-ratio:5/4!important;background:#f7e9e2!important}
+.course-visual img{object-fit:cover!important;width:100%!important;height:100%!important}
+@media(max-width:640px){.course-visual{aspect-ratio:5/4!important}}
+
+/* Vitrine final: mesma tipografia e conteúdo no desktop e no celular */
+.course-visual,.course-visual:before,.course-visual:after{background:#f7e9e1!important}
+.course-visual:before,.course-visual:after{display:none!important;content:none!important}
+.course-visual{aspect-ratio:1/1!important;height:auto!important;overflow:hidden!important;display:block!important}
+.course-visual img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;display:block!important}
+.course-body h3{font-family:'Playfair Display',Georgia,serif!important;font-weight:600!important;background:transparent!important;width:auto!important;min-height:0!important;line-height:1.18!important;padding:0!important;margin:0 0 14px!important}
+.offer-label{display:block!important;text-transform:uppercase!important;letter-spacing:.13em!important;font-weight:700!important;color:#9b647e!important;margin-top:auto!important}
+.course-price{font-size:25px!important}
+@media(max-width:640px){
+ .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}
+ .course-visual{aspect-ratio:1/1!important}
+ .course-body{padding:13px 7px 10px!important}
+ .course-body h3{font-size:clamp(17px,4.5vw,23px)!important;margin-bottom:11px!important}
+ .offer-label{font-size:9px!important;line-height:1.25!important}
+ .course-price{font-size:clamp(19px,5vw,23px)!important;margin:7px 0 12px!important}
+ .course-link{font-size:clamp(10px,3.1vw,13px)!important}
+}
+
+/* Fotos originais preservadas: sem recorte de rosto, corpo ou membros. */
+.course-visual{aspect-ratio:1000/920!important;background:#f8eae2!important;overflow:hidden!important}
+.course-visual img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center center!important}
+@media(max-width:640px){
+ .course-visual{aspect-ratio:1000/920!important}
+ .course-body h3{font-family:'Playfair Display',Georgia,serif!important;background:none!important;font-weight:600!important;font-size:clamp(17px,4.4vw,23px)!important;line-height:1.2!important;min-height:0!important;padding:0!important}
+ .offer-label{display:block!important;font-size:9px!important;letter-spacing:.11em!important}
+}
+
+/* Ajuste solicitado: fotos inteiras, sem cortes, proporção quadrada igual em todas as telas. */
+.course-visual{aspect-ratio:1/1!important;height:auto!important;background:#ffffff!important;overflow:hidden!important}
+.course-visual:before,.course-visual:after{display:none!important;content:none!important}
+.course-visual img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center center!important;background:#ffffff!important}
+@media(max-width:640px){.course-visual{aspect-ratio:1/1!important}}
+
+/* Padronização final: sem faixas brancas, mesmo fundo dos arquivos e fotos inteiras. */
+.course-visual{background:#f8e9e2!important;aspect-ratio:1/1!important;height:auto!important;overflow:hidden!important}
+.course-visual img{background:#f8e9e2!important;width:100%!important;height:100%!important;object-fit:contain!important;display:block!important}
+.course-visual:before,.course-visual:after{display:none!important;content:none!important}
