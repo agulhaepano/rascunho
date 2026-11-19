@@ -133,3 +133,9 @@
 
 /* Ajuste das quatro fotos: extensao do fundo sem bordas internas; bonecas preservadas. */
 .course-visual,.course-visual img{background:#FCE5DE!important}
+
+/* Integração Gorjuss/Tildinha: suaviza somente a transição entre a foto e o fundo do card, sem alterar a imagem original. */
+.course-visual:has(img[src$="boneca-gorjuss.png"]),
+.course-visual:has(img[src$="trio-tildinha-toy.png"]){background:#FCE5DE!important}
+.course-visual img[src$="boneca-gorjuss.png"],
+.course-visual img[src$="trio-tildinha-toy.png"]{background:#FCE5DE!important;-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 10%,#000 90%,transparent 100%);mask-image:linear-gradient(to right,transparent 0%,#000 10%,#000 90%,transparent 100%)}
