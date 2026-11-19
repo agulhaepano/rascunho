@@ -16,6 +16,8 @@ window.CURSOS = [
   {id:'boneca-russa', nome:'Bonecas Russas Vivi e Alícia', preco:79, foto:'assets/bonecas-russas-alicia-vivi.jpg', descricao:'Conheça o curso Boneca Russa do Ateliê Agulha e Pano.', checkout:'https://pay.hotmart.com/U95487858R?off=0j7vcd3v&checkoutMode=10'},
   {id:'boneca-mel', nome:'Boneca Mel', preco:97, foto:'assets/boneca-mel.jpg', descricao:'Conheça o curso Boneca Mel do Ateliê Agulha e Pano.', checkout:'https://www.atelieragulhaepano.com.br/bonecas/cursos/curso-online-boneca-mel'},
   {id:'boneca-iza', nome:'Boneca Iza', preco:47, foto:'assets/boneca-iza.jpg', descricao:'Conheça o curso Boneca Iza do Ateliê Agulha e Pano.', checkout:'https://pay.hotmart.com/E95072183W?off=h56sf7ye'},
-  {id:'trio-fofurinhas', nome:'Trio Fofurinhas', preco:157, foto:'assets/trio-fofurinhas.jpg', descricao:'Conheça o curso Trio Fofurinhas do Ateliê Agulha e Pano.', checkout:'https://pay.hotmart.com/V101143156W?off=xtzv8uc5&checkoutMode=10'}
+  {id:'trio-fofurinhas', nome:'Trio Fofurinhas', preco:157, foto:'assets/trio-fofurinhas.jpg', descricao:'Conheça o curso Trio Fofurinhas do Ateliê Agulha e Pano.', checkout:'https://pay.hotmart.com/V101143156W?off=xtzv8uc5&checkoutMode=10'},
+  {id:'boneca-gorjuss', nome:'Boneca Gorjuss', preco:57, foto:'assets/boneca-gorjuss.png', descricao:'Conheça o curso Boneca Gorjuss do Ateliê Agulha e Pano.', checkout:'https://www.atelieragulhaepano.com.br/bonecas/cursos/aula-da-boneca-gorjuss-bolsa-gorjuss'},
+  {id:'trio-tildinha-toy', nome:'Trio Tildinha Toy', preco:67, foto:'assets/trio-tildinha-toy.png', descricao:'Conheça o curso Trio Tildinha Toy do Ateliê Agulha e Pano.', checkout:'https://www.atelieragulhaepano.com.br/bonecas/cursos/video-aula-tildinha-toy'}
 ];
 window.moeda = valor => new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(valor);
